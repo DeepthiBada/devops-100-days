@@ -13,9 +13,11 @@ mv file2.txt notes.txt
 #change permissions
 chmod a+x file3.txt
 #alias name
-export ll=ls -alF
+alias ll=ls -alF
+alias hi='ls'
 #source or reload bashrc file
 ~/.bashrc
+# source ~/.bashrc
 #reload variable
 ll
 #check permissions
